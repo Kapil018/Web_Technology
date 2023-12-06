@@ -65,7 +65,7 @@
                 </li>
                 <br>
                 <li><label for="comments">Further Comments :</label>
-                    <input type="text" name="comments" id="comments" style="height: 70px; width: 200px;">
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
                 </li>
                 <br>
                 <li><label for="pic">Bio Photo :</label>
@@ -73,7 +73,13 @@
                 </li>
                 <br>
                 <li><label for="location">Location Visited :</label>
-                    <input type="search" name="location" id="location">
+                    <input list="location">
+                    <datalist id="location">
+                        <option value="Hyderabad"> Hyderabad</option>
+                        <option value="Mumbai"> Mumbai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Delhi"> Delhi</option>
+                    </datalist>
                 </li>
             </ul>
             <br>
